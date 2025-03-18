@@ -66,7 +66,7 @@ def sendEmail(to, content):
 # Function to get weather information
 def getWeather(city):
     try:
-        api_key = "950d1eb704cf9cca6795e1c59acf17d0"  # Replace with your actual OpenWeatherMap API key
+        api_key = "xyz"  # Replace with your actual OpenWeatherMap API key
         base_url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
         response = requests.get(base_url)
         data = response.json()
